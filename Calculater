@@ -1,51 +1,40 @@
 #include <iostream>
 
 using namespace std;
+int main(){
+    char op;
+    float a, b;
+    float c;
+    cout<<"Here's The New Version Calculater............\n"<<endl;
+    cout<<"Please Enter The First Number = ";
+    cin>> a;
+    cout<<"Enter The Operater (+, -, /, ^, *) = ";
+    cin>> op;
+    
+    if(op=='^'){
+    	cout<<"Your Answer Is = "<<a*a;
+	}
+	else{
+		cout<<"Please Enter The Second Number = ";
+		cin>> b;
+	}
+	
 
-int main()
-{ int a, b, c;
-char op;
-cout<<"                                             *WELCOME TO THE CALCULATER*                                                 "<<endl;
-cout<<"                                               *MADE BY ADITYA TIWARI*                                                   "<<endl;
-cout<<"1.Enter a value: ";
-cin>> a;
-cout<<"2.Enter operation ( + - * / % ): ";
-cin>>op;
-cout<<"3.Enter b value: ";
-cin>> b;
-
-if(op== '+'){
-    c=a+b;
-    cout<<"4.Answer of The Equation : ";
-    cout<< c;
-}
-if (op== '-'){
-    c=a-b;
-    cout<<"4.Answer of The Equation : ";
-    cout<< c;
-}
-if(op== '*'){
-    c=a*b;
-    cout<<"4.Answer of The Equation : ";
-    cout<< c;
-}
-if(op== '/'){
-    c=a/b;
-    cout<<"4.Answer of The Equation : ";
-    cout<< c;
-}
-if(op== '%'){
-    c=a%b;
-    cout<<"4.Answer of The Equation : ";
-    cout<< c;
-}
-
-
-
-
-
-   return 0;
-
-
-
-}
+    if(op=='+'){
+        c = a + b;
+        cout<< "Your Answer Is = "<< c;
+    }
+    if(op=='-'){
+        c = a - b;
+        cout<< "Your Answer Is = "<< c;
+    }
+    if(op=='/'){
+        c = a / b;
+        cout<< "Your Answer Is = "<< c;
+    }
+    if(op=='*'){
+        c = a * b;
+        cout<< "Your Answer Is = "<< c;
+    }  
+    return 0;    
+    }
