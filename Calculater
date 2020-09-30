@@ -24,17 +24,20 @@ int main(){
         c = a + b;
         cout<< "Your Answer Is = "<< c;
     }
-    if(op=='-'){
+    elseif(op=='-'){
         c = a - b;
         cout<< "Your Answer Is = "<< c;
     }
-    if(op=='/'){
+    else if(op=='/'){
         c = a / b;
         cout<< "Your Answer Is = "<< c;
     }
-    if(op=='*'){
+    else if(op=='*'){
         c = a * b;
         cout<< "Your Answer Is = "<< c;
-    }  
+    }
+    else{
+    	cout<<"Invalid Input";
+   }
     return 0;    
     }
