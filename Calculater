@@ -20,19 +20,29 @@ int main(){
 	}
 	
 
-    if(op=='+'){
+     if(op=='+'){
         c = a + b;
         cout<< "Your Answer Is = "<< c;
     }
-    elseif(op=='-'){
+if(op=='-'){
         c = a - b;
         cout<< "Your Answer Is = "<< c;
     }
-    else if(op=='/'){
+ if(op=='/'){
         c = a / b;
         cout<< "Your Answer Is = "<< c;
     }
-    else if(op=='*'){
+ if(op=='*'){
+=======
+    else if(op=='-'){
+        c = a - b;
+        cout<< "Your Answer Is = "<< c;
+    }
+ if(op=='/'){
+        c = a / b;
+        cout<< "Your Answer Is = "<< c;
+    }
+    if(op=='*'){
         c = a * b;
         cout<< "Your Answer Is = "<< c;
     }
